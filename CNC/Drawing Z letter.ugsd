@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "feedSpeed": 1000,
+    "plungeSpeed": 400,
+    "toolDiameter": 3.0,
+    "stockThickness": 10.0,
+    "safeHeight": 5.0,
+    "preferredUnits": "MM",
+    "toolStepOver": 0.3,
+    "depthPerPass": 1.0,
+    "spindleSpeed": 0.0
+  },
+  "entities": [
+    {
+      "startDepth": 0.0,
+      "cutDepth": 0.0,
+      "cutType": "ON_PATH",
+      "transform": {
+        "m00": 3.1,
+        "m10": 0.0,
+        "m01": 0.0,
+        "m11": 3.23,
+        "m02": 5.0,
+        "m12": 4.0
+      },
+      "name": "Ellipse",
+      "type": "ELLIPSE"
+    },
+    {
+      "text": "Z",
+      "fontName": "SansSerif",
+      "startDepth": 0.0,
+      "cutDepth": 0.0,
+      "cutType": "ON_PATH",
+      "transform": {
+        "m00": 1.821897810218978,
+        "m10": 0.0,
+        "m01": 0.0,
+        "m11": 1.4857142857142858,
+        "m02": 9.519708029197082,
+        "m12": 10.500000000000004
+      },
+      "name": "Text",
+      "type": "TEXT"
+    }
+  ],
+  "version": "1"
+}
